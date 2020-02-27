@@ -1,0 +1,39 @@
+PODS:
+  - Action (4.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+  - SFCloudMusicVideoKit (0.1.4):
+    - Action
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+
+DEPENDENCIES:
+  - SFCloudMusicVideoKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Action
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  SFCloudMusicVideoKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Action: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  SFCloudMusicVideoKit: d3008de548ad2a7bb3391eb3f6827227668e67be
+
+PODFILE CHECKSUM: ee9e2d3038c339189a42352a040f93b779fdba2a
+
+COCOAPODS: 1.8.3

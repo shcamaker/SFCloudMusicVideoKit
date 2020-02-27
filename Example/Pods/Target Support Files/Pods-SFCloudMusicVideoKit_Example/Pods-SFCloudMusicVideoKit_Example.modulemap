@@ -1,0 +1,6 @@
+framework module Pods_SFCloudMusicVideoKit_Example {
+  umbrella header "Pods-SFCloudMusicVideoKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

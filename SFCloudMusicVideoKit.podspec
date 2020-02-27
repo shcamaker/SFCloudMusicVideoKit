@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SFCloudMusicVideoKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SFCloudMusicVideoKit.'
+  s.version          = '0.1.4'
+  s.summary          = 'SFCloudMusicVideoKit.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A short description of SFCloudMusicVideoKit.
                        DESC
 
   s.homepage         = 'https://github.com/shcamaker/SFCloudMusicVideoKit'
@@ -27,16 +27,20 @@ TODO: Add long description of the pod here.
   s.author           = { 'shcamaker' => 'alex.shen@wesoft.com' }
   s.source           = { :git => 'https://github.com/shcamaker/SFCloudMusicVideoKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  
+  s.swift_version = '5.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SFCloudMusicVideoKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SFCloudMusicVideoKit' => ['SFCloudMusicVideoKit/Assets/*.png']
-  # }
+#   s.resource_bundles = {
+#     'SFCloudMusicVideoKit' => ['SFCloudMusicVideoKit/Assets/*.png']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'RxSwift', '~> 5'
+  s.dependency 'RxCocoa', '~> 5'
+  s.dependency 'Action'
+
 end

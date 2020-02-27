@@ -1,0 +1,35 @@
+{
+  "name": "SFCloudMusicVideoKit",
+  "version": "0.1.4",
+  "summary": "SFCloudMusicVideoKit.",
+  "description": "A short description of SFCloudMusicVideoKit.",
+  "homepage": "https://github.com/shcamaker/SFCloudMusicVideoKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shcamaker": "alex.shen@wesoft.com"
+  },
+  "source": {
+    "git": "https://github.com/shcamaker/SFCloudMusicVideoKit.git",
+    "tag": "0.1.4"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SFCloudMusicVideoKit/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "~> 5"
+    ],
+    "RxCocoa": [
+      "~> 5"
+    ],
+    "Action": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}
