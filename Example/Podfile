@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SFCloudMusicVideoKit_Example' do
+  pod 'SFCloudMusicVideoKit', :path => '../'
+
+  target 'SFCloudMusicVideoKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
